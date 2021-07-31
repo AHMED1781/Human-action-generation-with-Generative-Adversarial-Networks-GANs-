@@ -6,7 +6,6 @@ import os
 class NTUSkeletonDataset(torch.utils.data.Dataset):
     def __init__(self, root_dir, frames=100, pinpoint=0, pin_body=None, merge=None,
                  scale_each_body=True)  
-    
         """
         root_dir: os.path or str
                 Directory to the skeleton files
@@ -24,7 +23,6 @@ class NTUSkeletonDataset(torch.utils.data.Dataset):
                 If 1, return (# bodies, # frames, # keypoints * xy). For sequence generation.
                 If 2, return (# bodies * # frames, # keypoints * xy). For single frame generation.
         """
-        
         super().__init__()
 
         self.root_dir = root_dir
