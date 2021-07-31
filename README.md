@@ -1,1 +1,2 @@
-# Human Action Generation with Generative Adversarial Networks GANs 
+# Human Action Generation with Generative Adversarial Networks
+
